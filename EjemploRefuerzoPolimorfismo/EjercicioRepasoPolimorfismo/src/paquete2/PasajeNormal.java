@@ -14,7 +14,11 @@ public class PasajeNormal extends PasajeUrbano {
     public PasajeNormal(double pasaje){
         super(pasaje);
     }
-    
+    @Override
+    public void establecerValorPasaje(){
+        valorPasaje = valorFijo;
+        
+    }
     
     @Override
     public String toString(){
